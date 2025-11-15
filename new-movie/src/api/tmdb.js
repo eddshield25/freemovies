@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiKey = process.env.420dd26414b8bcb319a5d49051b6ac25;
+const apiKey = process.env."420dd26414b8bcb319a5d49051b6ac25";
 
 if (!apiKey) {
   throw new Error(
